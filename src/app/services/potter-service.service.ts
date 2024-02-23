@@ -6,4 +6,10 @@ import { Injectable } from '@angular/core';
 export class PotterServiceService {
 
   constructor() { }
+
+  getAllServices() {
+    return [
+      { name: 'Potter', id: '1', status: 'Active' }
+    ]
+  }
 }
