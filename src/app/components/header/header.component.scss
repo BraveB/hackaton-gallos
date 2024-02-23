@@ -1,0 +1,15 @@
+h1, h2 {
+    margin: 0px;
+    letter-spacing: 5px;
+    animation: auto-spacing 3s forwards;
+}
+
+@keyframes auto-spacing {
+    from {
+        letter-spacing: 5px;
+    }
+    to {
+        letter-spacing: 0px;
+    }
+}
+
