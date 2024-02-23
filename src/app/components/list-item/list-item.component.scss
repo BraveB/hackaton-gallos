@@ -1,0 +1,23 @@
+.container_style {
+    list-style-type: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container_li{
+    margin: 20px;
+    background-color: #dbdbdb;
+    color: white;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    padding-top: 13px;
+    border-radius: 18px;
+  }
+  .container_li:hover{
+    background-color: #ffd700;
+    color: white;
+    cursor: pointer;
+  }
