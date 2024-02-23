@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -9,6 +10,7 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ListItemComponent } from './components/list-item/list-item.component';
 import { ListComponent } from './components/list/list.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { ListComponent } from './components/list/list.component';
     ListComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule
   ],
